@@ -294,14 +294,14 @@ git push -u origin master
 <br />
 
 ```sh
-git pull --ff # friends forever <3
+git pull --ff-only # friends forever <3
 ```
 
 shortcut for
 
 ```sh
 git fetch
-git merge --ff origin/master
+git merge --ff-only origin/master
 ```
 
 ---
