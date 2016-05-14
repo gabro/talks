@@ -1,3 +1,6 @@
+![original](cover.jpg)
+
+---
 
 ## an introduction to
 # [fit] _**reactjs**_
@@ -497,3 +500,8 @@ Components can have a **state** 😖
 ---
 
 # [fit] `<Speaker questions={?} />`
+
+---
+
+![](end.jpg)
+
