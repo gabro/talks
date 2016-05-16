@@ -566,8 +566,8 @@ def updateUser(user: User): Future[Xor[MyError, User]] =
 
 ```scala
 case class MyError(msg: String)
-type Result[A] = Xor[MyError, A]
-type ResultT[F, A] = XorT[F, MyError, A]]
+type Result[+A] = Xor[MyError, A]
+type ResultT[F[_], A] = XorT[F, MyError, A]]
 type FutureResult[A] = ResultT[Future, A]
 ```
 
